@@ -1,4 +1,4 @@
-.hero-container .hero-wrapper {
+/* .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
 }
@@ -34,4 +34,27 @@
   .hero {
     padding: 40px 32px;
   }
+} */
+
+
+
+
+
+/* EDS Block: hero styles */
+.hero {
+  padding: 32px 16px;
+  background: linear-gradient(135deg, #f9fafb 0%, #eef2ff 100%);
+  border-radius: 8px;
+  border: 1px solid #e6e6e6;
 }
+
+.hero-content {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-title {
+  margin: 0;
+  font: 700 28px/1.3 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+   color: #1f2937; /* slate-800 */
